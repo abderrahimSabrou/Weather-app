@@ -4,8 +4,8 @@
 // Search Box
 .search {
   // border: 1px solid red;
-  width: 25rem;
-  margin: 2em auto auto;
+  width: 23rem;
+  margin: 1.5em auto auto;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -42,7 +42,7 @@
   width: 550px;
   background-color: $box-bg-clr;
   border-radius: 20px;
-  margin: 50px auto auto;
+  margin: 30px auto auto;
   text-align: center;
   padding: 25px 40px;
 
@@ -53,7 +53,7 @@
   }
 
   h1 {
-    font-size: 6rem;
+    font-size: 4rem;
     font-weight: 500;
   }
 
@@ -87,4 +87,86 @@
       margin-top: -6px;
     }
   }
+}
+
+// Start Other Cities Weather
+
+// .other-cities-weather {
+//   border: 1px solid red;
+//   margin-top: 40px;
+//   overflow-x: auto;
+//   display: flex;
+
+//   > div {
+//     color: #fff;
+//     width: 250px;
+//     border: 1px solid red;
+//     background-color: $box-bg-clr;
+//     border-radius: 20px;
+//     margin: auto 30px;
+//     text-align: center;
+//     padding: 25px 10px;
+//     .weather-icon {
+//       width: 80px;
+//     }
+
+//     h1 {
+//       font-size: 1rem;
+//       font-weight: 500;
+//     }
+
+//     h2 {
+//       font-size: 0.7rem;
+//       font-weight: 400;
+//       margin-bottom: -10px;
+//     }
+
+//     .details {
+//       // margin-top: ;
+//       display: flex;
+//       align-items: center;
+//       justify-content: space-between;
+//       padding: 0 20px;
+//       margin-top: 30px;
+//       // border: 1px solid red;
+
+//       .col {
+//         display: flex;
+//         align-items: center;
+//         text-align: left;
+
+//         img {
+//           width: 30px;
+//           // border: 1px solid red;
+//           margin-right: 10px;
+//         }
+
+//         .humidity,
+//         .wind {
+//           font-size: 0.7rem;
+//           margin-top: -6px;
+//         }
+
+//         .other-p {
+//           font-size: 0.7rem;
+//         }
+//       }
+//     }
+//   }
+// }
+
+.weather {
+  display: none;
+}
+
+.error {
+  display: none;
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
 }

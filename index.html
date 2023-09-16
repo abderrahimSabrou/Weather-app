@@ -21,6 +21,15 @@
       src="https://kit.fontawesome.com/36ec713c85.js"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Gsap CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      defer
+    ></script>
+
+    <!-- Scriptts -->
+    <script src="js/main.js" defer></script>
   </head>
   <body>
     <div class="search">
@@ -29,6 +38,10 @@
     </div>
 
     <!-- Start Weather App -->
+    <div class="error">
+      <p>Invalid City Name</p>
+    </div>
+
     <div class="weather">
       <img src="images/rain.png" alt="" class="weather-icon" />
       <h1 class="temp">32°C</h1>
@@ -50,5 +63,32 @@
         </div>
       </div>
     </div>
+
+    <!-- other Cities Weather -->
+    <!-- <div class="other-cities-weather">
+      <!-- Berrechid -->
+    <!-- <div class="berrechid-weather">
+        <img src="images/rain.png" alt="" class="weather-icon" />
+        <h1 class="temp">32°C</h1>
+        <h2 class="city">Berrechid</h2>
+        <div class="details">
+          <div class="col">
+            <img src="images/humidity.png" />
+            <div>
+              <p class="humidity">30%</p>
+              <p class="other-p">Humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="images/wind.png" />
+            <div>
+              <p class="wind">12km/h</p>
+              <p class="other-p">Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    -->
   </body>
 </html>
