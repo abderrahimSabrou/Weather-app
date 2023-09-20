@@ -12,11 +12,3 @@ This is a Mini Weather App built using JavaScript that provides current weather 
 
 - Displays current weather information for a specified location.
 - Ability to Search for cities
-
-## Roadmap
-
-This project is still under development, and the following improvements are planned:
-
-- add More javascript functionality to the app
-- add a section were showing-up close cities to user's location.
-- add Animations
